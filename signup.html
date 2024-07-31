@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-up</title>
+</head>
+<style>
+    body{
+        background-color: whitesmoke;
+    }
+    .sign-up{
+        display: flex;
+        margin-top: 50px;
+    }
+    .welcome{
+        background-color: rgb(4, 5, 27);
+        width: 40%;
+        height: 650px;
+        margin-left: 180px;
+        color: white;
+        font-family: sans-serif;
+        text-align: center;
+        border-radius: 30px 0px 0px 30px;
+    }
+    .create{
+        background-color: white;
+        width: 40%;
+        height: 650px;
+        text-align: center;
+        border-radius: 0px 30px 30px 0px;
+    }
+    input{
+        width: 350px;
+        height: 50px;
+      font-size: 18px;
+    }
+    i{
+        font-size: 20px;
+        margin: 5px;
+        color: black;
+         border: 1px solid black;
+         padding: 18px;
+         border-radius: 25px;
+    }
+    i:hover{
+        background-color: rgb(14, 14, 56);
+        color: white;
+    }
+    button{
+        padding: 20px 70px;
+        border-radius: 24px;
+        background-color: white;
+    }
+    button:hover{
+        background-color: rgb(4, 5, 27);
+        color: white;
+    }
+</style>
+<body>
+    <div class="sign-up">
+        <div class="welcome">
+            <h2 style="margin-top: 200px; font-size: 48px;">Hello Friend!</h2>
+            <p style="font-size: 18px;">Enter your personal details and start journey with us</p>
+            </div>
+<div class="create">
+<h2 style="margin-top: 80px; font-size: 35px;">Create Account</h2>
+<a href=""><i class="fa-brands fa-facebook"></i></a>
+<a href=""><i class="fa-brands fa-google-plus-g"></i></a>
+<a href=""><i class="fa-solid fa-envelope"></i></a>
+<p style="font-size: 18px;">Or use email for registration</p>
+<form>
+    <input type="name" placeholder="Name" required><br><br>
+    <input type="email" placeholder="Email" required> <br> <br>
+    <input type="password" placeholder="password" required><br> <br>
+    <input type="password" placeholder="password-password" required><br> <br>
+    <a href="login.html"><i class="fa-solid fa-arrow-left-long"></i></a>
+    <button class="sup" onclick="location.href='login.html'">Sign Up</button>
+</div>
+    </div>
+</body>
+</html>

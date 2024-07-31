@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.bar{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0%;
+    height: 75px;
+    box-shadow: 5px 5px 5px 1px rgb(6, 5, 83);
+    padding: 5px;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 100px;
+    margin-top: 20px;
+    
+    
+}
+.menu li a{
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+}
+.menu :hover{
+    color: rgb(3, 5, 168);
+    font-weight: 600;
+}
+.sign{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-top: 15px;
+    margin-right: 50px;
+   
+    
+    
+}
+.sign li a{
+    text-decoration: none;
+    
+
+    
+    
+    
+}
+.sign li button {
+    background-color: white;
+    width: 80px;
+    height: 40px;
+    color: gray;
+    border-style: none;
+    font-size: 20px;
+}
+.sign li button:hover{
+    color: white;
+    background-color: rgb(4, 5, 27);
+    border-radius: 10px;
+    transform: scale(1.3);
+    font-size: 15px;
+}
+
+.logo a{
+    width:15px;
+    color: rgba(168, 164, 164, 0.918);
+    margin: 10px;
+    text-decoration: none;
+}
+.logo span{
+    font-size: 15px; 
+}
+ .contmage{
+    background-image: linear-gradient(rgba(4, 12, 71, 0.6),rgba(16, 7, 90, 0.6)),url(augrecep.jpg);
+    height: 470px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+ }
+.contmage,h2{
+    padding-top: 100px;
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+}
+.contmage p{
+    padding: 10px;
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.parent{
+    display: flex;
+    padding: 100px;
+    gap: 50px;
+    justify-content: center;
+}
+
+.pcon p{
+    background-color: whitesmoke;
+    margin: 8px;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+}
+input{
+    background-color: whitesmoke;
+    padding: 20px;
+    margin: 2px;
+    font-size: 16pxpx;
+}
+textarea{
+    background-color: whitesmoke;
+    padding: 20px;
+    font-size: 16px;
+}
+.button{
+    padding: 10px;
+    background-color: white;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+    padding: 10px 50px;
+} 
+.inpt{
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(4, 5, 27);
+    color: rgb(247, 247, 247);
+    padding: 30px;
+    font-family: "Raleway", sans-serif;
+}
+
+.footer span{
+    color:rgb(255, 255, 255);
+    font-family: Arial;
+    font-size: 25px;
+    margin: 5px;
+    font-family: "Raleway", sans-serif;
+}
+.footer p{
+letter-spacing: 1px;
+word-spacing: 1px;
+font-size: 18px;
+text-decoration: none;
+font-family: "Raleway", sans-serif;
+margin: 3px;
+}
+.footer a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: "Raleway", sans-serif;
+}
+.small{
+    background-color: rgb(4, 5, 27);
+    margin-top: -10px;
+    padding: 15px;
+    color: white;
+}
+.small small{
+    font-size: 16px;
+    margin-left: 680px;
+}
